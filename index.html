@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sanjida Akter - Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="bg-gradient-to-r from-purple-200 via-pink-200 to-yellow-200 text-gray-900">
+        <header class="bg-purple-800 text-white p-4">
+            <div class="container mx-auto flex justify-between items-center flex-wrap">
+                <div class="w-full md:w-auto">
+                    <h1 class="text-3xl font-bold text-yellow-300">Sanjida Akter</h1>
+                    <p>Jamal-Siddique bari, Bhatiary, Sitakund, Chittagong</p>
+                    <p>Phone: <a href="tel:+8801536111006" 
+                        class="text-pink-400 hover:underline">01536111006</a> |
+                         Email: <a href="mailto:sanjidaakter.iiuc.ctg.bd@gmail.com" 
+                         class="text-pink-400 hover:underline">sanjidaakter.iiuc.ctg.bd@gmail.com</a></p>
+                </div>
+                <nav class="w-full md:w-auto">
+                    <button id="nav-toggle" class="block md:hidden text-yellow-300 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                    <ul id="nav-menu" class="hidden md:flex flex-col md:flex-row md:space-x-4 mt-4 md:mt-0">
+                        <li><a href="#about" class="hover:text-yellow-300">About Me</a></li>
+                        <li><a href="#experience" class="hover:text-yellow-300">Experience</a></li>
+                        <li><a href="#samples" class="hover:text-yellow-300">Samples</a></li>
+                        <li><a href="#certificate" class="hover:text-yellow-300">Certificates</a></li>
+                        <li><a href="#cv" class="hover:text-yellow-300">Resume</a></li>
+                        <li><a href="#offer" class="hover:text-yellow-300">What I Can Offer</a></li>
+                        <li><a href="#recent-work" class="hover:text-yellow-300">My Recent Work</a></li>
+                        <li><a href="#contact" class="hover:text-yellow-300">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <script>
+            document.getElementById('nav-toggle').onclick = function() {
+                var menu = document.getElementById('nav-menu');
+                menu.classList.toggle('hidden');
+            };
+        </script>
+    </body>    
+    <section id="about" class="container mx-auto p-8 bg-white mt-6 rounded shadow-lg">
+        <h2 class="text-3xl font-bold mb-6 text-blue-600" style="font-family: 'Raleway', sans-serif;">About Me</h2>
+        <div class="flex flex-col md:flex-row">
+            <div class="md:w-1/3">
+                <img src="Image/profile.jpeg" alt="About Me" class="rounded shadow-lg mx-auto md:mx-0" style="max-width: 100%; height: auto; width: 260px;">
+            </div>
+            <div class="md:w-2/3 md:pl-6 mt-6 md:mt-0">
+                <p class="text-lg mb-6" style="font-family: 'Roboto', sans-serif; color: #4A5568;">
+                    Hi, I’m Sanjida Akter, and I have nearly three years of experience in content writing.
+                    Currently, I serve as the Newsletter Sub-editor for the IEEE Computer Society IIUC
+                    Student Branch Committee and as a Junior Executive in the Content Writing Department at Requin BD. 
+                    
+                </p>
+                <h3 class="text-xl font-semibold mt-4 text-green-600" style="font-family: 'Raleway', sans-serif;">Expertise:</h3>
+                <ul class="list-disc list-inside" style="font-family: 'Roboto', sans-serif; color: #4A5568;">
+                    <li>Content Writing</li>
+                    <li>Programming & Web Development</li>
+                    <li>Leadership & Teamwork</li>
+                    <li>Microsoft Office (Excel, MS Word, PowerPoint)</li>
+                    <li>Canva (Banner, Logo, Poster, Product Promotion Picture)</li>
+                    <li>Cold Email</li>
+                    <li>Video Editing</li>
+                    
+                </ul>
+                <h3 class="text-xl font-semibold mt-4 text-green-600" style="font-family: 'Raleway', sans-serif;">LinkedIn Account:</h3>
+                <p>
+                    <a href="https://www.linkedin.com/in/sanjida-akter-9aabb826a/"
+                     class="text-pink-500 hover:underline" target="_blank" 
+                     rel="noopener noreferrer">
+                     https://www.linkedin.com/in/sanjida-akter-9aabb826a/
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>    
+    
+    <section id="experience" class="container mx-auto p-8 bg-white mt-6 rounded shadow-lg">
+        <h2 class="text-3xl font-bold mb-6 text-blue-600"
+         style="font-family: 'Raleway', sans-serif;">Experience</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
+            <div class="bg-gray-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-gray-800"
+                 style="font-family: 'Raleway', sans-serif;">Requin BD - Junior Executive of Content
+                 Writing Department </h3>
+                <p class="text-gray-700" style="font-family: 'Roboto', sans-serif;">
+                    May 2024 - PRESENT: Content Writer and Editing </p>
+            </div>
+            <div class="bg-gray-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-gray-800" 
+                style="font-family: 'Raleway', sans-serif;">IEEE Computer Society IIUC Student Branch Chapter</h3>
+                <p class="text-gray-700" style="font-family: 'Roboto', sans-serif;">
+                    July 2023 - PRESENT: Newsletter Sub-Editor </p>
+            </div>
+            <div class="bg-gray-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-gray-800" style="font-family: 'Raleway', 
+                sans-serif;">Requin BD - Content Writer</h3>
+                <p class="text-gray-700" style="font-family: 'Roboto', sans-serif;">
+                    January - May 2024: Virtual Internship</p>
+            </div>
+            <div class="bg-gray-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-gray-800" 
+                style="font-family: 'Raleway', sans-serif;">IEEE Computer Society IIUC Student Branch Chapter</h3>
+                <p class="text-gray-700" style="font-family: 'Roboto', sans-serif;">
+                    September 2024 - PRESENT: Newsletter Editor </p>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section id="education" class="container mx-auto p-8 bg-white mt-6 rounded shadow-lg">
+        <h2 class="text-3xl font-bold mb-6 text-blue-600" 
+        style="font-family: 'Raleway', sans-serif;">Educational Background</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-purple-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-purple-800" 
+                style="font-family: 'Raleway', sans-serif;">
+                International Islamic University - BSC in CSE</h3>
+                <p class="text-gray-700" style="font-family: 'Roboto', sans-serif;">
+                    2024 - Present: GPA- 3.47 (Average)</p>
+            </div>
+            <div class="bg-purple-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-purple-800" 
+                style="font-family: 'Raleway', sans-serif;">
+                Cambrian College - Halishahar Chittagong </h3>
+                <p class="text-gray-700" style="font-family: 'Roboto', sans-serif;">
+                    2020: GPA- 4.67, - Science</p>
+            </div>
+            <div class="bg-purple-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-purple-800"
+                 style="font-family: 'Raleway', sans-serif;">
+                 Bangladesh Military Academy High School | Chittagong </h3>
+                <p class="text-gray-700" style="font-family: 'Roboto', sans-serif;">
+                    2018: GPA- 4.67, - Science</p>
+            </div>
+        </div>
+    </section>        
+    <section id="samples" class="container mx-auto p-8 bg-white mt-6 rounded shadow">
+        <h2 class="text-2xl font-bold mb-4 text-blue-600" 
+        style="font-family: 'Raleway', sans-serif;">Sample of My Works</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="work-item bg-purple-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-purple-800" 
+                style="font-family: 'Raleway', sans-serif;">Informative Article</h3>
+                <ul class="list-disc list-inside" style="font-family: 'Roboto', sans-serif;">
+                    <li>
+                        <a href="https://docs.google.com/document/d/1DBHUpppB3oVbBcX2IHU3H9HAFIfQALZp/edit?usp=sharing&ouid=109867582054706991268&rtpof=true&sd=true"
+                         target="_blank" rel="noopener noreferrer" class="text-pink-500 hover:underline">The Science Behind Power Naps</a></li>
+                </ul>
+            </div>
+            <div class="work-item bg-purple-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-purple-800" 
+                style="font-family: 'Raleway', sans-serif;">For YouTube Video</h3>
+                <ul class="list-disc list-inside" style="font-family: 'Roboto', sans-serif;">
+                    <li><a href="https://docs.google.com/document/d/1vuJz7iEx72F6s2_YnjJ8ql7laG9akgrQ/edit?usp=sharing&ouid=109867582054706991268&rtpof=true&sd=true" 
+                        target="_blank" rel="noopener noreferrer" class="text-pink-500 hover:underline">
+                        নায়ক: দ্য রিয়েল হিরো (২০০১) <br>
+(Hindi Movie Explanation)
+</a></li>
+                </ul>
+            </div>
+            <div class="work-item bg-purple-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-purple-800"
+                 style="font-family: 'Raleway', sans-serif;">Annual Rrport</h3>
+                <ul class="list-disc list-inside" style="font-family: 'Roboto', sans-serif;">
+                    <li><a href="https://docs.google.com/document/d/1Af7I-5KOFYOIHKja6sZfBNlq3ylB4xLb/edit?usp=sharing&ouid=109867582054706991268&rtpof=true&sd=true" 
+                        target="_blank" rel="noopener noreferrer" class="text-pink-500 hover:underline">
+                        Annual Report of <br>
+IEEE Computer Society IIUC Student Branch Chapter
+</a></li>
+                </ul>
+            </div>
+            <div class="work-item bg-purple-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-purple-800" 
+                style="font-family: 'Raleway', sans-serif;">Movie Review </h3>
+                <ul class="list-disc list-inside" style="font-family: 'Roboto', sans-serif;">
+                    <li><a href="https://docs.google.com/document/d/1EssITzwpP3g4ljJ-rMADZrRCE1ztCYtQ/edit?usp=sharing&ouid=109867582054706991268&rtpof=true&sd=true" 
+                        target="_blank" rel="noopener noreferrer" class="text-pink-500 hover:underline">
+                        PK: A Cosmic Comedy-Drama and Unraveling the Human Condition </a></li>
+                </ul>
+            </div>
+            <div class="work-item bg-purple-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-purple-800" 
+                style="font-family: 'Raleway', sans-serif;">Fasting Focus: Empowering Your Body's Natural Healing</h3>
+                <ul class="list-disc list-inside" style="font-family: 'Roboto', sans-serif;">
+                    <li><a href="https://docs.google.com/document/d/14LEUHFyeoTt3QC4RA0vaKF7zgrcMesX2/edit?usp=sharing&ouid=109867582054706991268&rtpof=true&sd=true" 
+                        target="_blank" rel="noopener noreferrer" class="text-pink-500 hover:underline">Health</a></li>
+                </ul>
+            </div>
+            <div class="work-item bg-purple-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-purple-800" 
+                style="font-family: 'Raleway', sans-serif;">Bangla Content</h3>
+                <ul class="list-disc list-inside" style="font-family: 'Roboto', sans-serif;">
+                    <li>
+                        <a href="https://docs.google.com/document/d/1XRzSiX6dLLWV_JN7OTMcrXUCKYNmyuvg/edit?usp=sharing&ouid=109867582054706991268&rtpof=true&sd=true" 
+                        target="_blank" rel="noopener noreferrer" class="text-pink-500 hover:underline">Bangla Content Example</a></li>
+                </ul>
+            </div>
+            <div class="work-item bg-purple-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-purple-800" 
+                style="font-family: 'Raleway', sans-serif;">Invitation</h3>
+                <ul class="list-disc list-inside" style="font-family: 'Roboto', sans-serif;">
+                    <li><a href="https://docs.google.com/document/d/14BAiE5-yjNRJcUWF2jKQ-iX2pCJLNg1s/edit?usp=sharing&ouid=109867582054706991268&rtpof=true&sd=true" 
+                        target="_blank" rel="noopener noreferrer" 
+                        class="text-pink-500 hover:underline">IEEE CS IIUC SBC Program Invitation to Teachers</a></li>
+                </ul>
+            </div>
+            <div class="work-item bg-purple-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-purple-800" 
+                style="font-family: 'Raleway', sans-serif;">FB Post</h3>
+                <ul class="list-disc list-inside" style="font-family: 'Roboto', sans-serif;">
+                    <li><a href="https://docs.google.com/document/d/1WMZkkAZb9Kl0MgBTslCZmQVfON4JUbev/edit?usp=sharing&ouid=109867582054706991268&rtpof=true&sd=true" 
+                        target="_blank" rel="noopener noreferrer" 
+                        class="text-pink-500 hover:underline">IEEE CS IIUC SBC</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>    
+    <section class="container mx-auto p-8 bg-white mt-6 rounded shadow">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+            <div id="graphic-design">
+                <h2 class="text-2xl font-bold mb-4 text-blue-600">My Sample of web Design</h2>
+                <a href="Image/png-2.png" target="_blank" rel="noopener noreferrer">
+                    <img src="Image/png-2.png" alt="Sample of Graphic Design" class="rounded shadow mx-auto" style="max-width: 100%; height: auto; width: 100%; max-height: 300px;">
+                </a>
+            </div>
+            <div id="lead-generation">
+                <h2 class="text-2xl font-bold mb-4 text-blue-600">Technical project</h2>
+                <a href="Image/png-3.png" target="_blank" rel="noopener noreferrer">
+                    <img src="Image/png-3.png" alt="Lead Generation" class="rounded shadow mx-auto" style="max-width: 100%; height: auto; width: 100%; max-height: 300px;">
+                </a>
+            </div>
+            <div id="content-calendar">
+                <h2 class="text-2xl font-bold mb-4 text-blue-600">Content Calendar</h2>
+                <a href="Image/png-4.png" target="_blank" rel="noopener noreferrer">
+                    <img src="Image/png-4.png" alt="Content Calendar" class="rounded shadow mx-auto" style="max-width: 100%; height: auto; width: 100%; max-height: 300px;">
+                </a>
+            </div>
+        </div>
+    </section>    
+    <section class="container mx-auto p-8 bg-white mt-6 rounded shadow">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div id="certificate" class="flex items-center justify-center">
+                <div class="w-2/5 text-center">
+                    <a href="Image/png-5.jpg" target="_blank" rel="noopener noreferrer">
+                        <img src="Image/png-5.jpg" alt="Work Experience Certificate" class="rounded shadow" style="max-width: 100%; height: auto; max-height: 350px;">
+                    </a>
+                </div>
+                <div class="w-3/5 pl-6 text-left">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-600" style="font-family: 'Raleway', sans-serif;">Work Experience Certificate</h2>
+                    <p style="font-family: 'Roboto', sans-serif;">
+                        This is my Work Experience Certificate from Requin BD for working 4 months in this organization as a Intern Content Writer and Editor.
+                    </p>
+                </div>
+            </div>
+            <div id="cv" class="flex items-center justify-center">
+                <div class="w-2/5 text-center">
+                    <a href="Image/png-6.jpg" target="_blank" rel="noopener noreferrer">
+                        <img src="Image/png-6.jpg" alt="CV Image" class="rounded shadow" style="max-width: 100%; height: auto; max-height: 350px;">
+                    </a>
+                </div>
+                <div class="w-3/5 pl-6 text-left">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-600" style="font-family: 'Raleway', sans-serif;">CV</h2>
+                    <p style="font-family: 'Roboto', sans-serif;">
+                        Download my CV to know more about my professional journey, skills, and achievements.
+                    </p>
+                    <a href="Image/pdf-1.pdf" target="_blank" rel="noopener noreferrer" class="text-pink-500 hover:underline">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>    
+       
+    <section id="recent-work" class="container mx-auto p-8 bg-white mt-6 rounded shadow">
+        <h2 class="text-2xl font-bold mb-4 text-blue-600">My Recent Work</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="work-item bg-purple-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-purple-800">
+                    A Food Shop Website</h3>
+                <p>Creating a online based Food Shop Website.</p>
+                <a href="https://sanjida51.github.io/FoodShop_Assignment2/" 
+                class="text-pink-500 hover:underline" target="_blank" 
+                rel="noopener noreferrer">know More</a>
+            </div>
+            <div class="work-item bg-purple-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-purple-800">
+                    Unlocking Your Future: The Art of Skill Development for Tomorrow's Job Market</h3>
+                <p>A brief description of the article.</p>
+                <a href="https://docs.google.com/document/d/1j1SQfRjwEcGI1RPxYc_w0dOg-tWOEFM_V2ZYFC3iM_E/edit?usp=sharing" 
+                class="text-pink-500 hover:underline" target="_blank" rel="noopener noreferrer">Read More</a>
+            </div>
+            <div class="work-item bg-purple-100 p-4 rounded shadow">
+                <h3 class="text-xl font-semibold text-purple-800">Strategies for Breaking the Habit</h3>
+                <p>A brief description of the article.</p>
+                <a href="https://docs.google.com/document/d/1R6h9VW62vr66dEn-pE7xFGYmZf3A8kMhfUgvjrbCCH0/edit?usp=sharing" 
+                class="text-pink-500 hover:underline" target="_blank" rel="noopener noreferrer">Read More</a>
+            </div>
+        </div>
+    </section>    
+
+    <section id="offer" class="container mx-auto p-8 bg-white mt-6 rounded shadow-lg flex flex-wrap items-center">
+        <div class="w-full md:w-1/2 pr-0 md:pr-6 mb-6 md:mb-0">
+            <h2 class="text-2xl font-bold mb-4 text-blue-600" style="font-family: 'Raleway', sans-serif;">What I Can Offer</h2>
+            <p class="mb-4" style="font-family: 'Roboto', sans-serif;">
+                Hello! I’m Sanjida Akter, a passionate content writer with nearly three years of 
+                experience. I specialize in crafting engaging articles, graphic design, and web
+                 development, ensuring that your projects are executed with creativity and precision.
+            </p>
+            <h3 class="text-xl font-semibold mt-4 text-green-600" style="font-family: 'Raleway', sans-serif;">Areas of Expertise:</h3>
+            <ul class="list-disc list-inside space-y-2" style="font-family: 'Roboto', sans-serif;">
+                <li>Microsoft Office br 
+                    (Proficient in Excel, MS Word, and PowerPoint to streamline project management and document preparation).</li>
+                <li>Graphic Design <br> (Skilled in Canva for creating eye-catching banners,
+                     logos, and promotional materials).</li>
+                <li>Video Editing.</li>
+                <li>Experienced in crafting persuasive cold emails that convert.</li>
+                <li>Content Creation & Editing.</li>
+                <li>Web Development.</li>
+                <li>Leadership & Teamwork.</li>
+            </ul>
+        </div>
+        <div class="w-full md:w-1/2">
+            <video width="100%" height="315" controls class="rounded shadow">
+                <source src="Image/vid-1.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    
+    <section id="contact" class="container mx-auto p-8 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white mt-6 rounded shadow-lg">
+        <h2 class="text-3xl font-bold mb-6 text-yellow-300 animate-bounce" style="font-family: 'Raleway', sans-serif;">Get in Touch</h2>
+        <div class="flex flex-wrap -mx-4">
+            <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
+                <p class="text-lg mb-6" style="font-family: 'Roboto', sans-serif;">
+                    I’d love to hear from you! Whether you have a question, a project idea, or just want to connect, feel free to reach out. Here are a few ways to get in touch with me:
+                </p>
+                <ul class="text-lg mb-6 space-y-4" style="font-family: 'Roboto', sans-serif;">
+                    <li class="mb-2">
+                        <i class="fas fa-envelope text-yellow-300 animate-pulse"></i>
+                        Email: <a href="mailto:sanjidaakter.iiuc.ctg.bd@gmail.com" class="text-white hover:underline" target="_blank" rel="noopener noreferrer">
+                            sanjidaakter.iiuc.ctg.bd@gmail.com</a>
+                    </li>
+                    <li class="mb-2">
+                        <i class="fab fa-linkedin text-yellow-300 animate-pulse"></i>
+                        LinkedIn: <a href="https://www.linkedin.com/in/sanjida-akter-9aabb826a/" target="_blank" 
+                        rel="noopener noreferrer" class="text-white hover:underline">
+                       linkedin.com/in/sanjida-akter-9aabb826a/</a>
+                    </li>
+                    <li class="mb-2">
+                        <i class="fab fa-facebook text-yellow-300 animate-pulse"></i>
+                        Facebook: <a href="https://www.facebook.com/profile.php?id=61550470255507&mibextid=ZbWKwL" 
+                        target="_blank" rel="noopener noreferrer" class="text-white hover:underline">facebook.com/sanjida.akter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-full lg:w-1/2 px-4">
+                <form action="mailto:siddiquatisa61@gmail.com" method="post" enctype="text/plain" class="bg-white text-gray-800 p-6 rounded shadow-lg transform transition-transform duration-500 hover:scale-105">
+                    <div class="mb-4">
+                        <label for="name" class="block text-lg font-medium text-gray-700 mb-2" style="font-family: 'Raleway', sans-serif;">Name:</label>
+                        <input type="text" id="name" name="name" required class="w-full p-3 border border-gray-300 rounded mb-4" style="font-family: 'Roboto', sans-serif;">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-lg font-medium text-gray-700 mb-2" style="font-family: 'Raleway', sans-serif;">Email:</label>
+                        <input type="email" id="email" name="email" required class="w-full p-3 border border-gray-300 rounded mb-4" style="font-family: 'Roboto', sans-serif;">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-lg font-medium text-gray-700 mb-2" style="font-family: 'Raleway', sans-serif;">Message:</label>
+                        <textarea id="message" name="message" required class="w-full p-3 border border-gray-300 rounded mb-4" style="font-family: 'Roboto', sans-serif;"></textarea>
+                    </div>
+                    <button type="submit" class="bg-yellow-500 text-gray-800 py-3 px-6 rounded hover:bg-yellow-600 transition duration-300" style="font-family: 'Raleway', sans-serif;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>    
+
+    <footer class="bg-purple-800 text-white p-4 mt-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; Sanjida Akter</p>
+            <p>
+                <a href=" https://www.linkedin.com/in/sanjida-akter-9aabb826a/" class="text-pink-400 hover:underline" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+                <a href="https://github.com/Sanjida51" class="text-pink-400 hover:underline" target="_blank" rel="noopener noreferrer">Github</a>
+            </p>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
