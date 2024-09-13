@@ -40,6 +40,8 @@ header a:hover {
     overflow: hidden;
 }
 
+
+
 h1 {
     margin: 0;
 }
@@ -91,6 +93,9 @@ footer {
     background: #6a1b9a; /* Changed to match header */
     color: #fff;
 }
+
+
+
 <style>
 @keyframes fadeIn {
     0% { opacity: 0; }
