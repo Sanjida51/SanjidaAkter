@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #b6cbd4;
     color: #333;
 }
 
@@ -38,6 +38,7 @@ header a:hover {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    
 }
 
 
@@ -95,7 +96,7 @@ footer {
 }
 
 
-<style>
+
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
@@ -103,4 +104,3 @@ footer {
 .animate-fade-in {
     animation: fadeIn 2s ease-in-out;
 }
-</style>  

@@ -28,6 +28,7 @@ document.getElementById('check-all-projects-btn').addEventListener('click', func
     const moreProjects = document.getElementById('more-projects');
     const checkAllButton = document.getElementById('check-all-projects-btn');
     const showLessButton = document.getElementById('show-less-btn');
+    
 
     // Show more projects and the "Show Less" button
     moreProjects.style.display = 'block';
