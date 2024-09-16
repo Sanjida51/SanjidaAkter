@@ -451,9 +451,44 @@ IEEE Computer Society IIUC Student Branch Chapter
 
     <!-- Info Start -->
     
-    <section id="contact" class="container mx-auto p-8 bg-gradient-to-r from-blue-400 via-purple-500 to-gray-500 text-white mt-6 rounded shadow-lg">
-        <h2 class="text-3xl font-bold mb-6 text-red-300 animate-bounce" 
-       style="font-family: 'Arial', serif;">Feel free to connect with me!</h2>
+    <section id="contact" 
+    class="container mx-auto p-8 bg-gradient-to-r from-blue-400 via-purple-500 to-gray-500 text-white mt-6 rounded shadow-lg">
+        <h2 class="text-3xl font-bold mb-6 text-yellow-300 animate-bounce dynamic-text" 
+    style="font-family: 'Arial', serif;">
+    Feel free to connect with me!
+</h2>
+
+<style>
+  @keyframes color-change {
+    0% {
+      color: #420ac4; 
+    }
+    20% {
+      color: #e3df10; 
+    }
+    30% {
+        color: #c33858; 
+      }
+    50% {
+      color: #e50dc1; 
+    }
+    60% {
+        color: #0b800b; 
+      }
+    80% {
+        color: #e1540d; 
+      }
+    100% {
+      color: #8f0f0f; 
+    }
+  }
+
+  .dynamic-text {
+    animation: color-change 4s infinite, bounce 1s infinite;
+  }
+</style>
+
+
         <div class="flex flex-wrap -mx-4">
             <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
                 <p class="text-lg mb-6" style="font-family: 'Arial', serif; color:rgb(0, 8, 20)">
